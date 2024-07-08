@@ -1,0 +1,89 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Container styles */
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #333;
+}
+
+header p {
+    color: #777;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Article styles */
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    color: #333;
+}
+
+article p {
+    color: #666;
+}
+
+article ul {
+    margin-top: 10px;
+}
+
+article ul li {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,12 @@
+p { text-align: center}
+h3 { color: green}
+body { background-color: yellowgreen}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
